@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.tanitim {
+    background-image: url(images/1050408.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tanitim h1::before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+    transform: scale(0);
+    transform: translate(0px, 0px);
+    transition: all 0.5s ease;
+
+}
+
+.tanitim h1::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+    transform: scale(0);
+    transform: translate(0px, 0px);
+    transition: all 0.5s ease;
+
+}
+
+.tanitim h1:hover:before {
+    transform: scale(1);
+    transform: translate(0px, 40px);
+}
+
+.tanitim h1:hover::after {
+    transform: scale(1);
+    transform: translate(0px, -40px);
+}
+
+.navbar {
+    height: 150px;
+    background-color: #07122E;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-left {
+    float: left;
+    color: white;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.navbar-left h2 span {
+    color: lightskyblue;
+
+}
+
+.navbar-right {
+    float: right;
+    margin: 50px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+    font-size: 25px;
+    transition: all 0.4s;
+}
+
+.navbar-right a:hover {
+    color: lightskyblue;
+}
+
+.tanitim2 {
+    display: flex;
+    height: 800px;
+    max-width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.resim {
+    margin: 250px;
+    
+}
+
+.resim img {
+    width: 150%;
+    border-radius: 5px;
+    
+}
+
+.hakkimda {
+    margin: 250px;
+
+}
+
+.hakkimda p {
+    font-size: 30px;
+}
+
+.skills {
+    max-width: 100%;
+    background : #F2F2F2;
+    color: black;
+    min-height:800px;
+}
+
+.my-skills {
+    margin-left: 150px;
+    padding: 150px;
+    font-size: 25px;
+}
+
+.progress h3 {
+    color: black;
+    background : #F2F2F2;
+}
+
+.progress div {
+    height: 25px;
+    background-color: lightslategray;
+}
+
+.progress span {
+    background-color: darkslateblue;
+    display: block;
+    text-align: right;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+
+}
+
+.progress .progress2 {
+    margin: 40px;
+    margin-bottom: 100px;
+   
+}
+.header{
+    padding: 200px;
+    height: 800px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+#btn{
+    background-color: rebeccapurple;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    border-radius: .4rem;
+}
+#btn:hover{
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    
+
+}
+input{
+    padding: 10px;
+    font-size: 25px;
+    margin: 20px;
+    transition: all;
+    border-bottom: 1px solid #F2F2F2;
+    color: black;
+    border: none;
+    border-radius: 10px  solid #F2F2F2;
+    
+    
+}
+
+.grup{
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    
+}
+input{
+    width: 100%;
+    display: inline-block;
+    font-size: 25px; 
+    background-color: transparent;
+}
+input:focus{
+    outline: 0;
+}
+textarea{
+    width: 100%;
+    background-color: transparent;
+}
